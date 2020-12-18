@@ -1,3 +1,15 @@
+先在阿里云安装centos, 然后安装docker, 开放8443安全组
+
+然后docker里面安装一个带界面的
+
+
+$ sudo yum install -y yum-utils
+
+$ sudo yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+    
+    
 # Ubuntu Classic Desktop (GTK3-based Desktop Environment)
 
 ------------------------------------------
